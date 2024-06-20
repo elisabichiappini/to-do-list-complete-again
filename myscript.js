@@ -5,7 +5,7 @@ function showTodos() {
     result.forEach((todo) => {
         const elementLi = document.createElement('li');
         elementLi.classList.add('list-group-item');
-        elementLi.innerHTML = todo.title;
+        elementLi.innerHTML = `${todo.check} ${todo.title} `;
         elementUl.append(elementLi);
     })
 }
