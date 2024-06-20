@@ -39,9 +39,9 @@ class AppTodo {
 
 //istanza classe 
 const todoList = new AppTodo();
-todoList.addTodo(new Todo('ciao'));
-todoList.addTodo(new Todo('ciao'));
-todoList.addTodo(new Todo('ciao'));
+todoList.addTodo(new Todo('Fare la spesa'));
+todoList.addTodo(new Todo('Telefonare al medico'));
+todoList.addTodo(new Todo('Andare a lezione di piano'));
 
 //variabili
 const result = todoList.getAllTodos();
